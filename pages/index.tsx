@@ -1,5 +1,12 @@
-import styles from "../styles/home.module.scss";
+import Head from "next/head";
 
 export default function Home() {
-  return <div className={styles.title}>Hellow World</div>;
+  return (
+    <>
+      <Head>
+        <title>Inicio | ig.news</title>
+      </Head>
+      <div>Hellow World</div>
+    </>
+  );
 }
